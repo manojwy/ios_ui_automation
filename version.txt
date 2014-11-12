@@ -1,0 +1,3 @@
+var target = UIATarget.localTarget();
+var ver = target.frontMostApp().version();
+UIALogger.logMessage("Version: " + ver);

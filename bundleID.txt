@@ -1,0 +1,4 @@
+
+var target = UIATarget.localTarget();
+var bid = target.frontMostApp().bundleID();
+UIALogger.logMessage("App bundleID: " + bid);
